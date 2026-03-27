@@ -10,7 +10,7 @@ body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;marg
 .site-header.scrolled{background:#fff;box-shadow:0 8px 30px rgba(2,6,23,0.08)}
 .header-inner{display:flex;align-items:center;justify-content:space-between}
 .logo{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:inherit}
-.logo img{height:36px}
+.logo img{height:48px}
 .nav-toggle{display:none;background:none;border:0;font-size:1.25rem}
 .site-nav a{margin-left:1.25rem;text-decoration:none;color:var(--muted)}
 .hero{padding:6rem 0;background-image:linear-gradient(rgba(3,7,18,0.45),rgba(3,7,18,0.25)), url('assets/maxresdefausqdsqdlt.jpg');background-size:cover;background-position:center;color:#fff}
@@ -58,6 +58,7 @@ body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;marg
   .site-nav{position:absolute;right:1rem;top:64px;background:var(--surface);padding:1rem;border-radius:8px;box-shadow:0 10px 30px rgba(2,6,23,0.08);display:none}
   .site-nav.show{display:flex;flex-direction:column}
   .site-nav a{margin:0;padding:.5rem 0}
+  .logo img{height:40px}
 }
 
 @media (min-width:901px){
