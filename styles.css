@@ -11,10 +11,10 @@ body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;marg
 .logo img{height:36px}
 .nav-toggle{display:none;background:none;border:0;font-size:1.25rem}
 .site-nav a{margin-left:1.25rem;text-decoration:none;color:var(--muted)}
-.hero{padding:6rem 0;background:linear-gradient(90deg,rgba(11,155,107,0.05),transparent)}
+.hero{padding:6rem 0;background-image:linear-gradient(rgba(3,7,18,0.45),rgba(3,7,18,0.25)), url('assets/maxresdefausqdsqdlt.jpg');background-size:cover;background-position:center;color:#fff}
 .hero-inner{display:grid;gap:1rem}
 .hero h1{font-size:2.1rem;margin:0}
-.lead{color:var(--muted);font-size:1.05rem}
+.lead{color:rgba(255,255,255,0.9);font-size:1.05rem}
 .hero-cta{margin-top:1rem;display:flex;gap:.75rem}
 .btn{display:inline-block;padding:.6rem 1rem;border-radius:8px;border:1px solid transparent;text-decoration:none;color:inherit;background:var(--surface)}
 .btn.primary{background:var(--accent);color:#fff}
@@ -46,3 +46,15 @@ body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;marg
 @media (min-width:901px){
   .site-nav{display:flex}
 }
+
+/* Lightbox styles */
+.lightbox{position:fixed;inset:0;display:none;align-items:center;justify-content:center;z-index:200}
+.lightbox.show{display:flex}
+.lb-overlay{position:absolute;inset:0;background:rgba(2,6,23,0.75)}
+.lb-content{position:relative;max-width:90vw;max-height:90vh;padding:1rem;display:flex;align-items:center;justify-content:center}
+.lb-image{max-width:100%;max-height:80vh;border-radius:8px;box-shadow:0 18px 50px rgba(2,6,23,0.6);display:block}
+.lb-caption{color:#f3f4f6;margin-top:.5rem;text-align:center}
+.lb-close{position:absolute;right:8px;top:8px;background:transparent;border:0;color:#fff;font-size:28px}
+.lb-prev,.lb-next{position:absolute;top:50%;transform:translateY(-50%);background:transparent;border:0;color:#fff;font-size:40px;padding:.25rem}
+.lb-prev{left:6px}
+.lb-next{right:6px}

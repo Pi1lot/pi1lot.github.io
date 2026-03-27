@@ -119,5 +119,16 @@
     </footer>
 
     <script src="script.js"></script>
+    <!-- Lightbox modal -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <div class="lb-overlay" id="lbOverlay"></div>
+      <div class="lb-content" role="dialog" aria-modal="true">
+        <button class="lb-close" id="lbClose" aria-label="Close">×</button>
+        <img id="lbImage" class="lb-image" src="" alt="" />
+        <div id="lbCaption" class="lb-caption"></div>
+        <button class="lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+        <button class="lb-next" id="lbNext" aria-label="Next">›</button>
+      </div>
+    </div>
   </body>
 </html>
