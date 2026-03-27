@@ -69,6 +69,16 @@ document.addEventListener('DOMContentLoaded',function(){
     }
   });
 
+  // Header solid on scroll
+  const header = document.querySelector('.site-header');
+  function checkHeader(){
+    if(!header) return;
+    if(window.scrollY > 20) header.classList.add('scrolled');
+    else header.classList.remove('scrolled');
+  }
+  checkHeader();
+  window.addEventListener('scroll', checkHeader, {passive:true});
+
   // download spec (simple sample)
   const dl = document.getElementById('downloadSpec');
   if(dl){
