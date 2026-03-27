@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40" role="img" aria-label="FarmerBlocks logo">
+  <rect rx="6" width="160" height="40" fill="#0b9b6b" />
+  <g fill="#fff" font-family="Segoe UI,Roboto,Helvetica,Arial" font-size="14">
+    <text x="12" y="25" font-weight="700">FB</text>
+    <text x="44" y="25" font-weight="600">FarmerBlocks</text>
+  </g>
+</svg>

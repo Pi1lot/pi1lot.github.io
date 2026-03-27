@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>FarmerBlocks — Modular Hydroponic Farms</title>
+    <meta name="description" content="FarmerBlocks modular containers carry complete hydroponic farms — scalable, plug-and-play urban agriculture." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">
+          <img src="assets/logo.svg" alt="FarmerBlocks logo" />
+          <span>FarmerBlocks</span>
+        </a>
+        <button id="navToggle" class="nav-toggle" aria-expanded="false">☰</button>
+        <nav class="site-nav" id="siteNav">
+          <a href="#features">Features</a>
+          <a href="#products">Products</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <h1>Modular hydroponic farms in a container.</h1>
+          <p class="lead">Plug-and-play, climate-controlled, and scalable — FarmerBlocks brings fresh produce closer to cities.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#products">Explore Blocks</a>
+            <a class="btn ghost" href="#contact">Get a Quote</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features container">
+        <h2>Why FarmerBlocks</h2>
+        <div class="grid cols-3">
+          <article>
+            <h3>All-in-one</h3>
+            <p>Climate control, nutrient delivery, and lighting in a compact, transportable module.</p>
+          </article>
+          <article>
+            <h3>Scalable</h3>
+            <p>Stack or link modules to grow capacity as you need it — from micro-farms to commercial setups.</p>
+          </article>
+          <article>
+            <h3>Efficient</h3>
+            <p>Hydroponic systems use less water and land than traditional farming, delivering fast growth cycles.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="products" class="products container">
+        <h2>Product Lines</h2>
+        <div class="grid cols-2">
+          <div class="product-card">
+            <h3>Block 20</h3>
+            <p>Compact unit for restaurants, schools, and community gardens. Up to 200 plants.</p>
+            <a class="btn" href="#contact">Request Info</a>
+          </div>
+          <div class="product-card">
+            <h3>Block 40</h3>
+            <p>Larger production unit for retailers and urban farms. Up to 800 plants, modular-ready.</p>
+            <a class="btn" href="#contact">Request Info</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery container">
+        <h2>Gallery</h2>
+        <div class="grid cols-3">
+          <figure>
+            <img src="assets/traitement.png" alt="Food processing container" />
+            <figcaption>Food processing container</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/légumes-fruits.png" alt="Vegetables and fruits farm" />
+            <figcaption>Vegetables and fruits farm</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/champigon.png" alt="Mushroom farm" />
+            <figcaption>Mushroom farm</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="contact" class="contact container">
+        <h2>Contact</h2>
+        <p>Tell us about your site and needs — we'll help design the right configuration.</p>
+        <form id="contactForm" action="mailto:info@farmerblocks.example" method="post" enctype="text/plain">
+          <label>
+            Name
+            <input name="name" type="text" required />
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Send</button>
+            <button class="btn ghost" type="button" id="downloadSpec">Download Spec</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> FarmerBlocks — All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
