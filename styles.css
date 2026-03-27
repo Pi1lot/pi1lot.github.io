@@ -24,6 +24,10 @@ body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;marg
 .cols-2{grid-template-columns:repeat(2,1fr)}
 .cols-3{grid-template-columns:repeat(3,1fr)}
 .product-card{background:var(--surface);padding:1.25rem;border-radius:var(--radius);box-shadow:0 6px 18px rgba(12,14,18,0.04)}
+.patronage .cards{gap:1rem}
+.patronage .card{background:var(--surface);padding:1.25rem;border-radius:var(--radius);box-shadow:0 8px 22px rgba(12,14,18,0.06)}
+.patronage .card h3{margin-top:0}
+.patronage p{margin-bottom:0.75rem;color:var(--muted)}
 .media-placeholder{background:linear-gradient(135deg,#eef2f6,#ffffff);height:160px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--muted)}
 .gallery figure{margin:0;display:flex;flex-direction:column}
 .gallery img{width:100%;height:auto;max-height:320px;object-fit:contain;border-radius:8px;display:block;background:#f8fafb}
